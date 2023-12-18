@@ -25,17 +25,6 @@ import math
 from functools import reduce
 import itertools
 
-# 1. Validate the total number of virtualPeople for the US pop
-# 2. Validate the assumption that the age prob numbers are the fraction of the total impressions
-# 3. I need to assume a population spec for the US pop -> where do I get this?
-#    For the purpouses of this simulation, I assumed uniform dist for both gender and age
-# 4. Samle Virtual Person rather than vid.
-#     a. Add this to the doc reflecting it provides a common vid model
-# 5. fix the var formatting to _
-# 6. get rid of this normalization, reconstruction business, don't need it.
-#      a. clean up the comments to reflect this clean up
-
-
 def get_virtual_people_buckets(bucket_probs):
     ranges = []
     start = 0
