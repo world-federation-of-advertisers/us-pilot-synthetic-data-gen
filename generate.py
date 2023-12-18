@@ -37,7 +37,7 @@ def get_virtual_people_buckets(bucket_probs):
 
 
 # Total number of Virtual people, per the US population
-NUM_VIRTUAL_PEOPLE = 60_000_000
+NUM_VIRTUAL_PEOPLE = 300_000_000
 
 # Daily uniform noise size as fraction of the impressions that day.
 DAILY_NOISE_FACTOR = 0.1
