@@ -22,4 +22,4 @@ This command will generate a set of files in the form of `Digital1_row_*_fake_da
 python3 main.py -r 4 -e Digital1
 ```
 
-It should take ~11 hours to generate the whole dataset with 8 cores
+It should take ~30 mins to generate the whole dataset with 8 cores
