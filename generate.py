@@ -25,6 +25,7 @@ import math
 from functools import reduce
 import itertools
 
+
 def get_virtual_people_buckets(bucket_probs):
     ranges = []
     start = 0
@@ -232,7 +233,7 @@ class Impression:
     gender: str
 
     # Age bucket of the virtual person that genereated this impression
-    age: str
+    ageRange: str
 
     # Platform this impression was generated on
     platform: str  # dektop, mobile.
